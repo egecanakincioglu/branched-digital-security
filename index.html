@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Branched</title>
+  <link rel="stylesheet" href="assets/css/components/navbar.css">
+  <link rel="stylesheet" href="assets/css/components/footer.css">
+</head>
+<body>
+
+  <div id="navbar-placeholder"></div>
+
+  <main style="max-width: 80%; margin: 2rem auto;">
+    <h1>Welcome to Branched</h1>
+    <p>Secure your digital path.</p>
+  </main>
+
+  <div id="footer-placeholder"></div>
+<!-- ? Can a script file be created? -->
+  <script>
+    fetch('/components/navbar.html')
+      .then(res => res.text())
+      .then(data => document.getElementById('navbar-placeholder').innerHTML = data);
+
+    fetch('/components/footer.html')
+      .then(res => res.text())
+      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+  </script>
+</body>
+</html>
+
+<!-- TODO: SEO Friendly additions will be made -->
+<!-- TODO: Don't forget Reponsive Design -->
