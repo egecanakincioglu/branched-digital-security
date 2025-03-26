@@ -1,8 +1,9 @@
 .footer {
-  background-color: #1c1c1c;
+  background: linear-gradient(to right, #141e30, #243b55);
   color: #f0f0f0;
-  padding: 3rem 0 1rem;
+  padding: 4rem 0 2rem;
   font-size: 0.95rem;
+  font-family: 'Inter', sans-serif;
 }
 
 .footer-inner {
@@ -11,23 +12,27 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .footer-column {
   flex: 1;
-  min-width: 200px;
+  min-width: 240px;
 }
 
 .footer-column h3,
 .footer-column h4 {
   color: #ffffff;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .footer-column p {
-  color: #cccccc;
-  line-height: 1.6;
+  color: #bbbbbb;
+  line-height: 1.7;
+  font-size: 0.95rem;
 }
 
 .footer-column ul {
@@ -37,44 +42,68 @@
 }
 
 .footer-column ul li {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 .footer-column ul li a {
   color: #cccccc;
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
+  font-weight: 400;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-column ul li a:hover {
   color: #ffffff;
+  padding-left: 4px;
 }
 
-/* Sosyal medya ikonları */
-.social-icons a {
+.social-icons {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2d2d2d;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  color: #ccc;
   font-size: 1.2rem;
-  margin-right: 1rem;
-  color: #cccccc;
+  transition: all 0.3s ease;
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
 }
 
-.social-icons a:hover {
-  color: #ffffff;
+.social-btn:hover {
+  background-color: #0077ff;
+  color: #fff;
+  transform: scale(1.05);
 }
 
-/* Alt kısım */
 .footer-bottom {
   text-align: center;
-  margin-top: 2rem;
-  border-top: 1px solid #333;
-  padding-top: 1rem;
+  margin-top: 3rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 1.5rem;
   color: #aaaaaa;
+  font-size: 0.85rem;
 }
 
 .legal-links {
   margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.4rem;
+}
+
+.logo img {
+  height: 60px;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+.logo img:hover {
+  transform: scale(1.05);
 }
