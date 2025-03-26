@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <title>Branched</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
   <link rel="stylesheet" href="assets/css/components/navbar.css">
   <link rel="stylesheet" href="assets/css/components/footer.css">
 </head>
@@ -16,18 +19,8 @@
   </main>
 
   <div id="footer-placeholder"></div>
-<!-- ? Can a script file be created? -->
-  <script>
-    fetch('/components/navbar.html')
-      .then(res => res.text())
-      .then(data => document.getElementById('navbar-placeholder').innerHTML = data);
 
-    fetch('/components/footer.html')
-      .then(res => res.text())
-      .then(data => document.getElementById('footer-placeholder').innerHTML = data);
-  </script>
+  <script type="module" src="/assets/js/load-components.js"></script>
 </body>
 </html>
 
-<!-- TODO: SEO Friendly additions will be made -->
-<!-- TODO: Don't forget Reponsive Design -->
