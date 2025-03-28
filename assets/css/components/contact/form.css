@@ -1,0 +1,71 @@
+.contact-form-section {
+  background-color: var(--contact-form-bg);
+  color: var(--contact-form-text);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact-form-section h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--contact-form-title);
+}
+
+.contact-form-section h3 i {
+  color: var(--color-accent);
+  margin-right: 0.5rem;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: var(--contact-form-card);
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input,
+textarea {
+  padding: 0.9rem 1.2rem;
+  border: 1px solid var(--contact-form-input-border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--contact-form-input-bg);
+  color: var(--contact-form-input-text);
+  transition: border-color 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--color-accent);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+button[type='submit'] {
+  background-color: var(--contact-form-button-bg);
+  color: var(--contact-form-button-text);
+  border: none;
+  padding: 0.9rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type='submit']:hover {
+  background-color: var(--contact-form-button-hover);
+  transform: translateY(-2px);
+}

@@ -1,0 +1,48 @@
+.contact-info-section {
+  background-color: var(--contact-info-bg);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.contact-info-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.contact-box {
+  background-color: var(--color-bg-card);
+  border-radius: 16px;
+  box-shadow: 0 6px 16px var(--color-shadow-light);
+  padding: 2rem;
+  min-width: 240px;
+  flex: 1;
+  max-width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.contact-box i {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--contact-info-icon);
+}
+
+.contact-box h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--contact-info-title);
+  margin-bottom: 0.5rem;
+}
+
+.contact-box p {
+  color: var(--contact-info-text);
+  font-size: 1rem;
+}

@@ -1,0 +1,45 @@
+.contact-intro-section {
+  background-color: var(--contact-intro-bg);
+  color: var(--contact-intro-text);
+  padding: 5rem 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-intro-section::before {
+  content: '';
+  position: absolute;
+  top: -40%;
+  left: -10%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, var(--color-accent) 0%, transparent 70%);
+  opacity: 0.05;
+  z-index: 0;
+}
+
+.contact-intro-container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-intro-container h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--contact-intro-text);
+}
+
+.contact-intro-container h2 i {
+  color: var(--color-accent);
+  margin-right: 0.5rem;
+}
+
+.contact-intro-container p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: var(--contact-intro-subtext);
+}
