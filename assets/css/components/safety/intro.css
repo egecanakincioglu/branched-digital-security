@@ -1,0 +1,26 @@
+.tips-intro-section {
+  background-color: var(--safety-intro-bg);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.tips-intro-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tips-intro-container h2 {
+  font-size: 2.2rem;
+  color: var(--safety-intro-title);
+  margin-bottom: 1rem;
+}
+
+.tips-intro-container h2 i {
+  color: var(--safety-intro-accent);
+  margin-right: 0.5rem;
+}
+
+.tips-intro-container p {
+  font-size: 1.15rem;
+  color: var(--safety-intro-text);
+}

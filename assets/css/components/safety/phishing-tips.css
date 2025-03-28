@@ -1,0 +1,42 @@
+.tips-phishing-section {
+  background-color: var(--safety-phishing-bg);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.tips-phishing-section h3 {
+  font-size: 1.8rem;
+  color: var(--safety-phishing-title);
+  margin-bottom: 2rem;
+}
+
+.tips-phishing-section h3 i {
+  color: var(--safety-phishing-accent);
+  margin-right: 0.5rem;
+}
+
+.tips-list {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.tips-list li {
+  font-size: 1rem;
+  color: var(--safety-phishing-text);
+  background: var(--safety-phishing-list-bg);
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.tips-list li i {
+  color: var(--safety-phishing-accent);
+  font-size: 1.2rem;
+}

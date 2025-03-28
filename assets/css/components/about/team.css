@@ -1,0 +1,26 @@
+.about-team-section {
+  background: var(--about-team-bg);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.team-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.team-container h3 {
+  font-size: 1.7rem;
+  color: var(--about-team-heading);
+  margin-bottom: 1rem;
+}
+
+.team-container h3 i {
+  color: var(--about-team-accent);
+  margin-right: 0.5rem;
+}
+
+.team-container p {
+  font-size: 1.05rem;
+  color: var(--about-team-text);
+}

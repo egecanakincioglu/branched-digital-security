@@ -1,0 +1,26 @@
+.about-mission-section {
+  background: var(--about-mission-bg);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.mission-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mission-container h3 {
+  font-size: 1.7rem;
+  color: var(--about-mission-heading);
+  margin-bottom: 1rem;
+}
+
+.mission-container h3 i {
+  color: var(--about-mission-accent);
+  margin-right: 0.5rem;
+}
+
+.mission-container p {
+  font-size: 1.05rem;
+  color: var(--about-mission-text);
+}

@@ -1,0 +1,46 @@
+.about-values-section {
+  background: var(--about-values-bg);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.values-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.values-container h3 {
+  font-size: 1.7rem;
+  color: var(--about-values-heading);
+  margin-bottom: 1.5rem;
+}
+
+.values-container h3 i {
+  color: var(--about-values-accent);
+  margin-right: 0.5rem;
+}
+
+.values-container ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.values-container li {
+  font-size: 1rem;
+  color: var(--about-values-text);
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: start;
+  gap: 0.8rem;
+}
+
+.values-container li i {
+  color: var(--about-values-accent);
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.values-container strong {
+  color: var(--about-values-strong);
+}

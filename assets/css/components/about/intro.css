@@ -1,0 +1,26 @@
+.about-intro-section {
+  background: var(--about-intro-bg);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.intro-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-container h2 {
+  font-size: 2rem;
+  color: var(--about-intro-heading);
+  margin-bottom: 1rem;
+}
+
+.intro-container h2 i {
+  color: var(--about-intro-accent);
+  margin-right: 0.5rem;
+}
+
+.intro-container p {
+  font-size: 1.1rem;
+  color: var(--about-intro-subtext);
+}

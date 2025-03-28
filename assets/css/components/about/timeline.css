@@ -1,0 +1,26 @@
+.about-timeline-section {
+  background: var(--about-timeline-bg);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.timeline-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-container h3 {
+  font-size: 1.7rem;
+  color: var(--about-timeline-heading);
+  margin-bottom: 1rem;
+}
+
+.timeline-container h3 i {
+  color: var(--about-timeline-accent);
+  margin-right: 0.5rem;
+}
+
+.timeline-container p {
+  font-size: 1.05rem;
+  color: var(--about-timeline-text);
+}
