@@ -1,0 +1,35 @@
+.privacy-policy-section {
+  background-color: var(--color-bg-secondary);
+  padding: 3rem 2rem;
+}
+
+.privacy-policy-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.privacy-block {
+  background-color: var(--color-bg-card);
+  border-radius: 14px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 6px 16px var(--color-shadow-light);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.privacy-block:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.privacy-block h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  color: var(--color-text-primary);
+}
+
+.privacy-block p {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
