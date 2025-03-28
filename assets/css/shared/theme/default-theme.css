@@ -1,0 +1,77 @@
+:root {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f9f9f9;
+  --color-bg-accent: #e7f7f4;
+  --color-bg-card: #ffffff;
+  --color-bg-card-alt: #f1f1f1;
+  --color-bg-footer: linear-gradient(to right, #141e30, #243b55);
+  --color-bg-hero: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+
+  --color-text-primary: #203a43;
+  --color-text-secondary: #444;
+  --color-text-light: #fff;
+  --color-text-muted: #dcdcdc;
+  --color-text-soft: #bbbbbb;
+  --color-text-footer: #cccccc;
+  --color-text-footer-muted: #aaaaaa;
+
+  --color-accent: #00c9a7;
+  --color-accent-hover: #00a98e;
+  --color-accent-dark: #00a98e;
+
+  --color-border: #eaeaea;
+  --color-shadow: rgba(0, 0, 0, 0.08);
+  --color-shadow-light: rgba(0, 0, 0, 0.05);
+  --color-footer-shadow: rgba(255, 255, 255, 0.1);
+
+  --safety-device-bg: #f9f9f9;
+  --safety-device-title: #203a43;
+  --safety-device-accent: #00c9a7;
+  --safety-device-card-bg: #ffffff;
+  --safety-device-text: #444;
+  --safety-intro-bg: #ffffff;
+  --safety-intro-title: #203a43;
+  --safety-intro-text: #555;
+  --safety-intro-accent: #00c9a7;
+
+  --safety-password-bg: linear-gradient(135deg, #e3fdfd, #f8f9fa);
+  --safety-password-title: #203a43;
+  --safety-password-accent: #00c9a7;
+  --safety-password-card-bg: #ffffff;
+  --safety-password-text: #444;
+  --password-tips-bg: linear-gradient(135deg, #e3fdfd, #f8f9fa);
+
+  --safety-phishing-bg: #ffffff;
+  --safety-phishing-title: #203a43;
+  --safety-phishing-accent: #00c9a7;
+  --safety-phishing-list-bg: #f3f3f3;
+  --safety-phishing-text: #444;
+
+  --about-intro-bg: #ffffff;
+  --about-intro-heading: #203a43;
+  --about-intro-subtext: #555;
+  --about-intro-accent: #00c9a7;
+
+  --about-mission-bg: #f8f9fa;
+  --about-mission-heading: #203a43;
+  --about-mission-text: #444;
+  --about-mission-accent: #00c9a7;
+
+  --about-team-bg: linear-gradient(135deg, #f9f9f9, #eafdfc);
+  --about-team-heading: #203a43;
+  --about-team-text: #444;
+  --about-team-accent: #00c9a7;
+
+  --about-timeline-bg: #ffffff;
+  --about-timeline-heading: #203a43;
+  --about-timeline-text: #555;
+  --about-timeline-accent: #00c9a7;
+
+  --about-values-bg: #ffffff;
+  --about-values-heading: #203a43;
+  --about-values-text: #444;
+  --about-values-accent: #00c9a7;
+  --about-values-strong: #203a43;
+
+  --font-main: 'Inter', sans-serif;
+}
