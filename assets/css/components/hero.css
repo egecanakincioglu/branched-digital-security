@@ -1,6 +1,6 @@
 .hero-section {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  color: #fff;
+  background: var(--color-bg-hero);
+  color: var(--color-text-light);
   padding: 6rem 2rem;
   text-align: center;
 }
@@ -18,13 +18,13 @@
 
 .hero-content p {
   font-size: 1.2rem;
-  color: #dcdcdc;
+  color: var(--color-text-muted);
   margin-bottom: 2.5rem;
 }
 
 .cta-button {
-  background: #00c9a7;
-  color: #fff;
+  background: var(--color-accent);
+  color: var(--color-text-light);
   padding: 1rem 2rem;
   border-radius: 12px;
   font-size: 1rem;
@@ -34,6 +34,6 @@
 }
 
 .cta-button:hover {
-  background: #00a98e;
+  background: var(--color-accent-hover);
   transform: translateY(-2px);
 }

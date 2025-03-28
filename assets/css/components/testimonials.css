@@ -1,5 +1,5 @@
 .testimonials-section {
-  background: #e7f7f4;
+  background: var(--color-bg-accent);
   padding: 4rem 2rem;
   text-align: center;
 }
@@ -7,7 +7,7 @@
 .testimonials-section h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #0f2027;
+  color: var(--color-text-primary);
 }
 
 .testimonials-container {
@@ -19,20 +19,20 @@
 }
 
 .testimonial {
-  background: #ffffff;
+  background: var(--color-bg-card);
   padding: 1.5rem 2rem;
   border-radius: 14px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 6px 20px var(--color-shadow-light);
 }
 
 .testimonial p {
   font-size: 1rem;
-  color: #444;
+  color: var(--color-text-secondary);
   margin-bottom: 0.5rem;
 }
 
 .testimonial span {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #00a98e;
+  color: var(--color-accent-dark);
 }
