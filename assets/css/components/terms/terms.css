@@ -1,0 +1,35 @@
+.terms-content-section {
+  background-color: var(--color-bg-secondary);
+  padding: 4rem 2rem;
+}
+
+.terms-content-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.terms-block {
+  background-color: var(--color-bg-card);
+  border-radius: 14px;
+  padding: 1.8rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 20px var(--color-shadow-light);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.terms-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.terms-block h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.7rem;
+  color: var(--color-text-primary);
+}
+
+.terms-block p {
+  font-size: 1rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
