@@ -1,0 +1,5 @@
+@import '../components/safety/intro.css';
+@import '../components/safety/password-tips.css';
+@import '../components/safety/phishing-tips.css';
+@import '../components/safety/device-safety.css';
+@import '../shared/main-page-animation.css';
