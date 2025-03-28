@@ -1,0 +1,7 @@
+@import '../components/contact/intro.css';
+@import '../components/contact/info.css';
+@import '../components/contact/form.css';
+
+textarea {
+  resize: none;
+}
