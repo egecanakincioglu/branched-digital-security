@@ -74,5 +74,30 @@
   --about-values-accent: #00c9a7;
   --about-values-strong: #ffffff;
 
+  --contact-intro-bg: #1e1e1e;
+  --contact-intro-text: #f0f0f0;
+  --contact-intro-subtext: #cccccc;
+
+  --contact-info-bg: #2a2a2a;
+  --contact-info-title: #ffffff;
+  --contact-info-text: #dddddd;
+  --contact-info-icon: #00c9a7;
+
+  --contact-form-bg: #2a2a2a;
+  --contact-form-title: #ffffff;
+  --contact-form-label: #cccccc;
+  --contact-form-input-bg: #3a3a3a;
+  --contact-form-input-border: #555555;
+  --contact-form-input-text: #f0f0f0;
+  --contact-form-button-bg: #00c9a7;
+  --contact-form-button-text: #ffffff;
+  --contact-form-button-hover: #00a98e;
+
+  --contact-form-text: #f0f0f0;
+  --contact-form-card: #1e1e1e;
+  --input-bg: #2a2a2a;
+  --input-text: #f0f0f0;
+  --input-border: #444444;
+
   --font-main: 'Inter', sans-serif;
 }
