@@ -1,0 +1,29 @@
+.terms-intro-section {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-secondary);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.terms-intro-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.terms-intro-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: var(--color-text-primary);
+}
+
+.terms-intro-container h2 i {
+  color: var(--color-accent);
+  margin-right: 0.5rem;
+}
+
+.terms-intro-container p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--color-text-secondary);
+}
