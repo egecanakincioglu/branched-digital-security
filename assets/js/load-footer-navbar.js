@@ -9,6 +9,11 @@ fetch("/components/navbar.html")
       const initThemeToggle = module.default;
       initThemeToggle();
     });
+
+    import('./utils/navbar-toggle.js').then((module) => {
+      const initNavbarToggle = module.default;
+      initNavbarToggle();
+    });
   });
 
 fetch("/components/footer.html")
