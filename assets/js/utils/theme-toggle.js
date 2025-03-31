@@ -1,11 +1,6 @@
 const initThemeToggle = () => {
   const toggleBtn = document.querySelector(".theme-toggle");
 
-  if (!toggleBtn) {
-    console.warn("Theme button not found.");
-    return;
-  }
-
   let themeLink = document.getElementById("theme-style");
 
   if (!themeLink) {
