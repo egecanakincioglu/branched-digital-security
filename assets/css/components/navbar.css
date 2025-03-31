@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 .navbar-inner {
@@ -21,7 +21,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
@@ -33,6 +38,36 @@ body {
   transform: scale(1.05);
 }
 
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--color-text-primary);
+  display: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--color-text-primary);
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.theme-toggle:hover {
+  transform: rotate(15deg);
+  color: var(--color-accent);
+}
+
 .nav-menu {
   list-style: none;
   display: flex;
@@ -40,8 +75,6 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
-  flex: 1;
-  justify-content: center;
 }
 
 .nav-menu li a {
@@ -73,17 +106,45 @@ body {
   width: 100%;
   left: 0;
 }
+@media (max-width: 1024px) {
+  .navbar-inner {
+    flex-wrap: wrap;
+  }
 
-.theme-toggle {
-  background: none;
-  border: none;
-  font-size: 1.2rem;
-  cursor: pointer;
-  color: var(--color-text-primary);
-  transition: transform 0.2s ease, color 0.2s ease;
-}
+  .navbar-actions {
+    margin-left: auto;
+  }
 
-.theme-toggle:hover {
-  transform: rotate(15deg);
-  color: var(--color-accent);
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-bg-primary);
+    border-top: 1px solid var(--color-border);
+    box-shadow: 0 4px 10px var(--color-shadow-light);
+    padding: 1rem 0;
+    z-index: 999;
+    display: none;
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .nav-menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-menu li a {
+    display: block;
+    padding: 1rem;
+    font-size: 1.1rem;
+  }
 }
